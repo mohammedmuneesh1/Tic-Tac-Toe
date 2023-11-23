@@ -3,7 +3,6 @@ import "./TicTacToe.css";
 import circle from "../Assets/circle.png";
 import cross from "../Assets/cross.png";
 
-
 let data = ["", "", "", "", "", "", "", "", ""]; //this will act as a storage ;
 
 export const TicTacToe = () => {
