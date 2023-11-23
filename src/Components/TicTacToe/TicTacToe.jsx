@@ -83,7 +83,10 @@ export const TicTacToe = () => {
   const reset = () => {
     setLock(false);
     data = ["", "", "", "", "", "", "", "", ""];
-    titleRef.current.innerHTML = `Tic Tac Toe Game In <span>React</span>`;
+    // titleRef.current.innerHTML = `<span className="tic">Tic</span><span className="tac"> Tac </span><span className="toe">Toe</span>  `;
+    // titleRef.current.innerHTML = `<span style = {{color:"#26ffcb"}}>Tic</span><span className="tac"  style = {{color:"#26ffcb"}}> Tac </span><span className="toe">Toe</span>`;
+    titleRef.current.innerHTML = `<span style="color:#26ffcb">TIC</span>  <span style="color:rgba(169,191,201,255)">TAC</span>   <span style="color:rgba(255,194,38,255)">TOE</span> `;
+
     brr.map((value) => {
      return value.current.innerHTML = "";
     });
@@ -93,7 +96,7 @@ export const TicTacToe = () => {
     <div className="container">
       <h1 className="title" ref={titleRef}>
         {" "}
-        Tic Tac Toe  Using <span>REACT</span>
+        Tic Tac Toe  Using <span className="react">REACT</span>
       </h1>
 
       <div className="board">

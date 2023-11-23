@@ -14,10 +14,11 @@
     margin-bottom:20px;
     padding-top:20px;
 }
-.title span {
+.title .react {
     color:#26ffcb;
     padding-left: 15px;
 }
+
 
 .board{
 
@@ -138,6 +139,22 @@ background:rgba(255,194,38,255);
 
 
 /*RESULT SECTION END */
+
+
+.tac{
+    /* color:rgba(169,191,201,255); */
+    color:red
+    /* font-size: 5rem; */
+}
+.toe{
+    color:rgba(255,194,38,255);
+    font-size: 5rem;
+
+
+}
+
+
+
 
 
 
