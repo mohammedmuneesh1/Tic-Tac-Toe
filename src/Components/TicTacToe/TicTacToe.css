@@ -148,6 +148,11 @@ background:rgba(255,194,38,255);
         margin-bottom:10px;
 
     }
+    .title img {
+        height:20px;
+        width:20px;
+    }
+    
     .boxes{
         width:100px;
         height:100px;
