@@ -155,7 +155,9 @@ const chkWin = ()=>{
 
   return (
     <div className='container'>
+     
         <h1 className='title' ref={titleRef}> Tic Tac Toe Game In <span>REACT</span></h1>
+     
      <div className='board'>
    <div className="row1">
     <div className="boxes" onClick={(e)=>toggle(e,0)}       ref={b1} ></div> 
@@ -175,10 +177,18 @@ const chkWin = ()=>{
      </div>
      
 
-     <button className='reset' onClick={()=>reset()} >Reset</button>
+     <button className='reset' onClick={()=>reset()} >
+    <span class="reset-text-one">Reset</span>
+    <span class="reset-text-two">Play Again</span>
+    </button>
+
+
+
+
+
      <div className='result' >
         <div className='circle-box'>
-            <h4>CIRCLE</h4>
+            <h2>CIRCLE</h2>
             <span>{cwon}</span>
         </div>
         <div className='draw-box'>
