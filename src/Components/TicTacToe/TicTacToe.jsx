@@ -122,6 +122,7 @@ export const TicTacToe = () => {
         <span class="reset-text-two">Play Again</span>
       </button>
 
+        <h1 className="score">SCORE</h1>
       <div className="result">
         <div className="circle-box">
           <h3>CIRCLE</h3>

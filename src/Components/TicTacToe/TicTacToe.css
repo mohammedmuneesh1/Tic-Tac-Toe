@@ -110,6 +110,18 @@
     justify-content: center;
 
 }
+.score{
+    /* font-size: 72px; */
+    background: -webkit-linear-gradient( #C33764 ,#1D2671);
+    font-weight: bolder;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: brightness(2);
+
+    }
+
+
+
 .circle-box , .draw-box , .cross-box{
     width:150px;
     height:100px;
@@ -187,11 +199,15 @@ background:rgba(255,194,38,255);
         color:#343434;
         font-family:sans-serif;
         padding-top:10px;
-        margin:10px 10px 10px 10px; 
-    
+        margin:10px 10px 10px 10px;     
+        
     }
     .circle-box span , .draw-box span , .cross-box span{
         font-size: 2.5rem;
+    }
+    .score{
+        font-size:1.5rem;
+        margin-bottom:.5rem;
     }
 
 }
